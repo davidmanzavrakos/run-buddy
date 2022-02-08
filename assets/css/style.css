@@ -15,6 +15,13 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
   }
   
   header h1 {
@@ -22,6 +29,8 @@ body {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
   }
   
   header a {
@@ -45,6 +54,7 @@ body {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   /* HEADER END */
@@ -84,6 +94,8 @@ body {
     justify-content: center;
     Flex-wrap: wrap;
     align-items: flex-start;
+    background-position: 80%;
+    background-attachment: fixed;
   }
   
   .hero-cta {
@@ -99,16 +111,19 @@ body {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   .hero-form {
     border: 3px solid #024e76;
-    background-color: #fce138;
+    background-color: rgb(252,225,56, 80%);
     padding: 20px;
     color: #024e76;
     margin: 5px 0 15px 0;
     width: 40%;
     margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
   }
 
   .hero-form h3 {
@@ -128,6 +143,7 @@ body {
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
+    border-radius: 10px;
   }
 
   .hero-form label{
@@ -139,7 +155,8 @@ body {
       background-color: #024e76;
       Border: none;
       padding: 10px 20px;
-      font-size: 16px
+      font-size: 16px;
+      border-radius: 10px;
   }
   /* HERO SECTION END */
 
@@ -219,7 +236,7 @@ body {
     border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
-    margin: 0 auto 35px auto;
+    margin: 22px auto 35px auto;
     width: 50%;
   }
   
@@ -317,6 +334,7 @@ body {
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
+    border-radius: 10px;
   }
 
   .contact-form button {
@@ -327,6 +345,7 @@ body {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
   }
   .contact-info a {
     color: #fce138;
@@ -349,6 +368,7 @@ body {
     header {
       padding-bottom: 0;
       justify-content: center;
+      position: relative;
     }
   
     header h1 {
@@ -450,4 +470,8 @@ body {
   .contact-form {
     order: 3;
   }
-}
+
+  .some-class {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
+  }

@@ -219,7 +219,7 @@ body {
     border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
-    margin: 0 auto 35px auto;
+    margin: 22px auto 35px auto;
     width: 50%;
   }
   
@@ -255,13 +255,6 @@ body {
     line-height: 1.3;
   }
 
-  /* .text-left {
-    text-align: left;
-  }
-  
-  .text-right {
-    text-align: right;
-  } */
   .trainer-bio h3 {
     font-size: 28px;
   }
@@ -283,10 +276,9 @@ body {
     color: #fce138;
   }
 
-  .contact-info > *{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  .contact-info > * {
+    flex: 1;
+    margin: 15px;
   }
 
   .contact-info iframe {
@@ -381,6 +373,13 @@ body {
   
     .section-title {
       width: 80%;
+      font-size: 48px;
+      color: #024e76;
+      border-bottom: 3px solid;
+      padding-bottom: 20px;
+      text-align: center;
+      margin: 22px auto 35px auto;
+      width: 50%;
     }
     
     .trainer {

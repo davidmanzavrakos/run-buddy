@@ -306,11 +306,15 @@ body {
   }
 
   .contact-info > *{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex: 1;
+    margin: 15px;
   }
+.contact-info {
+  display: flex;
+  Justify-content: space-between;
+  flex-wrap: wrap;
 
+}
   .contact-info iframe {
     height: 400px;
   }

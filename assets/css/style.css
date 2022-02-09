@@ -57,6 +57,13 @@ body {
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
+
+  header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+  }
   
 /* HEADER END */
 
@@ -137,6 +144,10 @@ body {
   
   .hero-form p {
     margin: 5px 0 15px 0;
+  }
+
+  .hero-form button:hover {
+    background-color: #39a6b2;  
   }
 
 /* HERO SECTION END */
@@ -319,12 +330,13 @@ body {
     flex: 1;
     margin: 15px;
   }
-.contact-info {
-  display: flex;
-  Justify-content: space-between;
-  flex-wrap: wrap;
 
-}
+  .contact-info {
+    display: flex;
+    Justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
   .contact-info iframe {
     height: 400px;
   }
@@ -370,6 +382,11 @@ body {
     color: #fce138;
   }
 
+  .contact-form button:hover {
+    color: #fce138;
+    background: #39a6b2;
+  }
+
   .text-left {
     text-align: left;
   }
@@ -383,7 +400,7 @@ body {
 
 /* MEDIA INQUIRIES STYLES */
 
-  @media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
     header {
       padding-bottom: 0;
       justify-content: center;
@@ -464,6 +481,7 @@ body {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
 @media screen and (max-width: 575px) {
+  
   .hero-form button {
     width: 100%;
   }
@@ -495,22 +513,6 @@ body {
   .some-class {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
-  }
-
-  header nav ul li a:hover {
-    background: #fce138;
-    color: #024e76;
-    border-radius: 15px;
-    text-shadow: none;
-  }
-  
-  .hero-form button:hover {
-    background-color: #39a6b2;  
-  }
-  
-  .contact-form button:hover {
-    color: #fce138;
-    background: #39a6b2;
   }
 
 /* UTILITIES */
